@@ -2480,7 +2480,7 @@ items:
             name: plugins
           - mountPath: /scratch
             name: scratch
-        - image: velero/velero:1.6.0
+        - image: velero/velero:v1.6.0
           imagePullPolicy: IfNotPresent
           name: kubeagent-backup-helper
           args:
